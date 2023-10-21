@@ -6,69 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday</title>
     <style>
-        body{
-            /* background-color: rgb(211, 84, 211); */
-            background-image: url(bgcimg.gif);
-
-        }
-        .letter{
-            font-size: 30px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                color: white;
-            }
-            
-            
-            .letter2{
-                font-size: 70px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                color: whitesmoke;
-                padding-top: 100px;
-            }
-        @media (max-width: 700px) {
-
-
-            .letter{
-    font-size: 20px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                color: white;
-            }
-            .letter2{
-                font-size: 30px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                color: white;
-                padding-top: 100px;
-            }
-        }
     </style>
 </head>
 
 <body>
     <section>
+        <!-- <audio controls src="baudio.mp3" type="audio/ogg">
+        </audio> -->
     <div class="bimg">
         <img id="birthimg" src="birth.gif" alt="" width="100%" height="100%">
+        <a href="btn.html">
+        <button id="btnn">click here</button></a>
     </div>
-    <span class="letter" id="element"></span>
-    <div class="letter2" id="elements"></div>
     </section>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['I may not be able to give you the whole world, but I promise to love you with all my heart and to do everything in my power to make your birthday and every day the best they can be. Happy birthday, my sweetheart.'],
-            typeSpeed: 50,
-        });
-        var typed = new Typed('#elements', {
-            strings: [' "Happy Birthday"'],
-            typeSpeed: 490,
-        });
-    </script>
 </body>
 
 </html>
